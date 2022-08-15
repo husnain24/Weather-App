@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right top, #fdf553, #ffd235, #ffae26, #ff8828, #ff5f33);
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 3rem;
+  padding: 1rem;
+  /* background-color: rgb(240, 84, 84); */
+  /* border-radius: 10px; */
+}
+
+#weather-form {
+  width: 100%;
+  padding-bottom: 1rem;
+  background-color: rgb(240, 84, 84);
+  /* border-radius: 10px; */
+}
+
+#weather-form p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#user-input {
+  width: 100%;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+#submit {
+  padding: 0.4rem;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  background-color: #114b7a;
+  color: white;
+  cursor: pointer;
+}
+
+#submit:hover {
+  opacity: 0.8;
+  color: black;
+  background-color: white;
+}
+
+#submit:active {
+  opacity: 0.6;
+}
+
+.weather-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(240, 84, 84);
+  width: 50%;
+  margin: 0 auto;
+  /* border-radius: 5%; */
+}
+
+/* .weather-results .results{
+  background-color: rgb(240, 84, 84);
+} */
+
+#location {
+  font-size: 1.25rem;
+  font-weight: 600;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#pic {
+  display: flex;
+  justify-content: center;
+}
+
+#flag {
+  width: 100px;
+}
+
+#time {
+  font-weight: 600;
+}
+
+#description {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-right: 5px;
+  /* padding: 10px; */
+}
+
+#image-weather {
+  width: 50px;
+  height: 50px;
+}
+
+#temperature {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.condition-div {
+  display: flex;
+  flex-direction: row;
+}

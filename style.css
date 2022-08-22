@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right top, #fdf553, #ffd235, #ffae26, #ff8828, #ff5f33);
+  background-image: linear-gradient(to left bottom, #4534ff, #6453f3, #7c6de5, #9086d6, #a29dc4);
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -18,28 +18,30 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  width: 50%;
+  width: 80%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   padding: 1rem;
-  /* background-color: rgb(240, 84, 84); */
-  /* border-radius: 10px; */
+  text-align: center;
+  color: white;
 }
 
 #weather-form {
   width: 100%;
   padding-bottom: 1rem;
-  background-color: rgb(240, 84, 84);
-  /* border-radius: 10px; */
+  background: rgba(255, 255, 255, 0.1);
+  border: solid 3px white;
+  border-radius: 10px;
 }
 
 #weather-form p {
   width: 70%;
   margin: 0 auto;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
 }
@@ -55,19 +57,20 @@ header h1 {
 
 #user-input {
   width: 100%;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   font-size: 1rem;
-  padding: 0.25rem;
+  padding: 1rem;
 }
 
 #submit {
-  padding: 0.4rem;
-  font-size: 0.75rem;
-  border-radius: 0.25rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
   font-weight: 600;
   background-color: #114b7a;
   color: white;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 #submit:hover {
@@ -86,23 +89,22 @@ header h1 {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background-color: rgb(240, 84, 84);
-  width: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: solid 3px white;
+  width: 80%;
   margin: 0 auto;
-  /* border-radius: 5%; */
+  border-radius: 10px;
+  max-width: 800px;
 }
 
-/* .weather-results .results{
-  background-color: rgb(240, 84, 84);
-} */
-
 #location {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   width: 100%;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 #pic {
@@ -111,29 +113,29 @@ header h1 {
 }
 
 #flag {
-  width: 100px;
+  width: 50%;
 }
 
 #time {
   font-weight: 600;
+  font-size: 1.2rem;
 }
 
 #description {
   display: flex;
   align-items: center;
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-right: 5px;
-  /* padding: 10px; */
 }
 
 #image-weather {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 #temperature {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bold;
 }
 
